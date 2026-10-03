@@ -40,3 +40,9 @@
 		status = "okay";
 	};
 };
+
+/ {
+	aliases {
+		app-led = &led;
+	};
+};
